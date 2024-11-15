@@ -1,5 +1,5 @@
 ARG osdistro=debian
-ARG oscodename=stretch
+ARG oscodename=bullseye
 
 FROM $osdistro:$oscodename
 LABEL maintainer="Walter Doekes <wjdoekes+sipp@osso.nl>"
@@ -24,7 +24,7 @@ RUN apt-get install -y \
 # Get build env again, after the FROM, before the first usage
 ARG osdistro=debian
 ARG osdistshort=deb
-ARG oscodename=stretch
+ARG oscodename=bullseye
 ARG upname=sipp
 ARG upversion=3.6.0
 ARG debepoch=
