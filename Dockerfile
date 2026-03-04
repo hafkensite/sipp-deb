@@ -26,7 +26,7 @@ ARG osdistro=debian
 ARG osdistshort=deb
 ARG oscodename=bullseye
 ARG upname=sipp
-ARG upversion=3.6.0
+ARG upversion=3.7.7
 ARG debepoch=
 ARG debversion=0osso1
 

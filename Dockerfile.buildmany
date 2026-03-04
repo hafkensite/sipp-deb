@@ -1,6 +1,7 @@
 #!/bin/sh -ex
+./Dockerfile.build debian/trixie    # deb13
 ./Dockerfile.build debian/bookworm  # deb12
 ./Dockerfile.build debian/bullseye  # deb11
-./Dockerfile.build ubuntu/noble     # ubu24.04
-./Dockerfile.build ubuntu/jammy     # ubu22.04
-./Dockerfile.build ubuntu/focal     # ubu20.04
+# ./Dockerfile.build ubuntu/noble     # ubu24.04
+# ./Dockerfile.build ubuntu/jammy     # ubu22.04
+# ./Dockerfile.build ubuntu/focal     # ubu20.04

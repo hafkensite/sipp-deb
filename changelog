@@ -1,6 +1,12 @@
-sipp (3.7.3-0osso1+deb12) bookworm; urgency=low
+sipp (3.7.7-0osso1+deb13) trixie; urgency=low
 
-  * New 3.7.3 build.
+  * New 3.7.7 build.
+
+ -- Jasper Hafkenscheid <jasper.hafkenscheid@voys.nl>  Wed, 04 Mar 2026 11:17:23 +0100
+
+sipp (3.7.2-0osso1+deb11) bullseye; urgency=low
+
+  * New 3.7.2 build.
 
  -- Jasper Hafkenscheid <jasper.hafkenscheid@voys.nl>  Fri, 15 Nov 2024 09:21:17 +0100
 

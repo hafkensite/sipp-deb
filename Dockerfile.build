@@ -4,10 +4,10 @@ cd "$(dirname "$0")"  # jump to curdir
 # Pass these on the command line.
 oscodename=${1:-debian/bullseye}  # debian/bullseye
 upname=sipp
-upversion=${2:-3.6.1}       # sipp version
+upversion=${2:-3.7.7}       # sipp version
 debversion=${3:-0osso1}     # deb build version, e.g. 0osso1
 
-echo "Usage: $0 [debian/bullseye [3.6.1 [0osso1]]]"
+echo "Usage: $0 [debian/bullseye [3.7.7 [0osso1]]]"
 echo ".. continuing"
 
 osdistro=${oscodename%/*}   # debian (or ubuntu)
@@ -15,7 +15,7 @@ oscodename=${oscodename#*/} # bullseye (or bionic)
 osdistshort=${osdistro:0:3} # deb (or ubu)
 case $osdistro/$oscodename in
 debian/forky)   oscodenum=14;;
-debian/trixy)   oscodenum=13;;
+debian/trixie)   oscodenum=13;;
 debian/bookworm)oscodenum=12;;
 debian/bullseye)oscodenum=11;;
 ubuntu/noble)   oscodenum=24.04;;
